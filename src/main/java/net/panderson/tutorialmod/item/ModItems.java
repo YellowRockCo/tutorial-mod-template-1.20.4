@@ -13,9 +13,12 @@ import net.panderson.tutorialmod.TutorialMod;
 public class ModItems {
 
     public static final Item PRISMATIC_METAL = registerItem("prismatic_metal", new Item(new FabricItemSettings()));
+    public static final Item Rose_Gold = registerItem("rose_gold", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
+
         entries.add(PRISMATIC_METAL);
+        entries.add(Rose_Gold);
     }
 
     private static Item registerItem(String name, Item item) {
