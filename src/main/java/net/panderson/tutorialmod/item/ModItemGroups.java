@@ -17,7 +17,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PRISMATIC_METAL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PRISMATIC_METAL);
                         entries.add(ModItems.Rose_Gold);
+
                         entries.add(ModBlocks.Prismatic_Metal_Block);
+                        entries.add(ModBlocks.Rose_Gold_Block);
 
                     }).build());
     public static void registerItemGroups() {
