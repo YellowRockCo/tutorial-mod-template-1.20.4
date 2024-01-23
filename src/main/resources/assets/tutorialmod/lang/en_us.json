@@ -2,5 +2,7 @@
   "item.tutorialmod.prismatic_metal": "Prismatic Metal",
   "item.tutorialmod.rose_gold": "Rose Gold",
 
+  "block.tutorialmod.prismatic_metal_block": "Block of Prismatic Metal",
+
   "itemgroup.ingot": "Panderson's things"
 }

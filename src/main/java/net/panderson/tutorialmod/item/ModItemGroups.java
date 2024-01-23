@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.panderson.tutorialmod.TutorialMod;
+import net.panderson.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup Ingot_Group = Registry.register(Registries.ITEM_GROUP,
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PRISMATIC_METAL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PRISMATIC_METAL);
                         entries.add(ModItems.Rose_Gold);
+                        entries.add(ModBlocks.Prismatic_Metal_Block);
 
                     }).build());
     public static void registerItemGroups() {
