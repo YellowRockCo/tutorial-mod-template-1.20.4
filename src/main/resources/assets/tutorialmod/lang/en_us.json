@@ -4,6 +4,8 @@
 
   "block.tutorialmod.prismatic_metal_block": "Block of Prismatic Metal",
   "block.tutorialmod.rose_gold_block": "Block of Rose Gold",
+  "block.tutorialmod.active_prismatic_metal_block": "Block of Active Prismatic Metal",
+  "block.tutorialmod.rough_metal_block": "Rough Metal",
 
   "itemgroup.ingot": "Panderson's things"
 }

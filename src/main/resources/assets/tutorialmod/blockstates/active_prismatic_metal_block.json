@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialmod:block/active_prismatic_metal_block"
+    }
+  }
+}

@@ -14,9 +14,13 @@ import net.panderson.tutorialmod.TutorialMod;
 
 public class ModBlocks {
     public static final Block Prismatic_Metal_Block = registerBlock("prismatic_metal_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.LANTERN)));
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
     public static final Block Rose_Gold_Block = registerBlock("rose_gold_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+    public static final Block Active_Prismatic_Metal_Block = registerBlock("active_prismatic_metal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).luminance(5)));
+    public static final Block Rough_Metal_Block = registerBlock("rough_metal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
 
 
     private static Block registerBlock(String name, Block block) {
