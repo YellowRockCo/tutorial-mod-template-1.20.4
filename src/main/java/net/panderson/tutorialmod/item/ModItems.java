@@ -14,6 +14,7 @@ public class ModItems {
 
     public static final Item PRISMATIC_METAL = registerItem("prismatic_metal", new Item(new FabricItemSettings()));
     public static final Item Rose_Gold = registerItem("rose_gold", new Item(new FabricItemSettings()));
+    public static final Item Chocolate_Bar = registerItem("chocolate_bar", new Item(new FabricItemSettings().food(ModFoodComponents.Chocolate_Bar)));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 

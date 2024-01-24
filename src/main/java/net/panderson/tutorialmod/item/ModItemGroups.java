@@ -18,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PRISMATIC_METAL);
                         entries.add(ModItems.Rose_Gold);
 
+                        entries.add(ModItems.Chocolate_Bar);
+
                         entries.add(ModBlocks.Prismatic_Metal_Block);
                         entries.add(ModBlocks.Rough_Metal_Block);
                         entries.add(ModBlocks.Active_Prismatic_Metal_Block);
