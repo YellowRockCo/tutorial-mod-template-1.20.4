@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:prismatic_metal"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:prismatic_metal_block"
+  }
+}

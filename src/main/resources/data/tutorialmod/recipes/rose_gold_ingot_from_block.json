@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:rose_gold_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:rose_gold",
+    "count": 9
+  }
+}
