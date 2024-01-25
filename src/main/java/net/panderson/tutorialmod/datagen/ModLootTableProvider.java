@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.panderson.tutorialmod.block.ModBlocks;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
-    protected ModLootTableProvider(FabricDataOutput dataOutput) {
+    public ModLootTableProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 
