@@ -3,7 +3,7 @@
 	"id": "tutorial-mod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "This is a Learning Experiance for me!",
+	"description": "This is a Learning Experience for me!",
 	"authors": [
 		"Panderson"
 	],
