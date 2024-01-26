@@ -1,0 +1,5 @@
+// 1.20.4	2024-01-26T14:51:20.460191	Tutorial Mod/Block Loot Tables
+1f12f23ed42762b45b25718ebc1a70459ad9a952 data\tutorialmod\loot_tables\blocks\rough_metal_block.json
+697e0df913a771bb68bb00bd440014ebc13ff178 data\tutorialmod\loot_tables\blocks\rose_gold_block.json
+4f0c3e99bb18aaa236a4ce960bdc00b3dc5a200f data\tutorialmod\loot_tables\blocks\active_prismatic_metal_block.json
+685c13ce10fb6502c82dde8712ab1cd09e0e99bc data\tutorialmod\loot_tables\blocks\prismatic_metal_block.json

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tutorialmod:rose_gold"
+  },
+  "base": {
+    "item": "minecraft:golden_pickaxe"
+  },
+  "result": {
+    "item": "tutorialmod:rose_gold_pickaxe"
+  },
+  "template": {
+    "item": "tutorialmod:rose_gold_smithing_template"
+  }
+}

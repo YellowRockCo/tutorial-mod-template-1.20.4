@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "R": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "tutorialmod:prismatic_smithing_template"
+    },
+    "X": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "pattern": [
+    "RTR",
+    "#X#",
+    "R#R"
+  ],
+  "result": {
+    "item": "tutorialmod:prismatic_smithing_template",
+    "count": 2
+  }
+}

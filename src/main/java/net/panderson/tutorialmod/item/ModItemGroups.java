@@ -15,8 +15,22 @@ public class ModItemGroups {
             new Identifier(TutorialMod.MOD_ID, "ingot"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ingot"))
                     .icon(() -> new ItemStack(ModItems.PRISMATIC_METAL)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.PRISMATIC_METAL);
+                        entries.add(ModItems.Prismatic_Smithing_Template);
+                        entries.add(ModItems.Prismatic_Sword);
+                        entries.add(ModItems.Prismatic_Axe);
+                        entries.add(ModItems.Prismatic_Pickaxe);
+                        entries.add(ModItems.Prismatic_Shovel);
+                        entries.add(ModItems.Prismatic_Hoe);
+
                         entries.add(ModItems.Rose_Gold);
+                        entries.add(ModItems.Rose_Gold_Smithing_Template);
+                        entries.add(ModItems.Rose_Gold_Sword);
+                        entries.add(ModItems.Rose_Gold_Axe);
+                        entries.add(ModItems.Rose_Gold_Pickaxe);
+                        entries.add(ModItems.Rose_Gold_Shovel);
+                        entries.add(ModItems.Rose_Gold_Hoe);
 
                         entries.add(ModItems.Chocolate_Bar);
 

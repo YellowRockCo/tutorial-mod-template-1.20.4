@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tutorialmod:prismatic_metal"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "item": "tutorialmod:prismatic_axe"
+  },
+  "template": {
+    "item": "tutorialmod:prismatic_smithing_template"
+  }
+}

@@ -28,8 +28,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, Rough_Metal, RecipeCategory.MISC, ModItems.PRISMATIC_METAL,
               1.0f,  100, "Metal");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PRISMATIC_METAL, RecipeCategory.MISC, ModBlocks.Prismatic_Metal_Block);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.Rose_Gold, RecipeCategory.MISC, ModBlocks.Rose_Gold_Block);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.Rose_Gold, RecipeCategory.MISC, ModBlocks.Rose_Gold_Block);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PRISMATIC_METAL,
+                RecipeCategory.MISC, ModBlocks.Prismatic_Metal_Block);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.Rose_Gold,
+                RecipeCategory.MISC, ModBlocks.Rose_Gold_Block);
     }
 }

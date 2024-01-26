@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tutorialmod:rose_gold"
+  },
+  "base": {
+    "item": "minecraft:golden_shovel"
+  },
+  "result": {
+    "item": "tutorialmod:rose_gold_shovel"
+  },
+  "template": {
+    "item": "tutorialmod:rose_gold_smithing_template"
+  }
+}

@@ -1,6 +1,19 @@
 {
   "item.tutorialmod.prismatic_metal": "Prismatic Metal Ingot",
+  "item.tutorialmod.prismatic_smithing_template": "Smithing Template",
+  "item.tutorialmod.prismatic_pickaxe": "Prismatic Metal Pickaxe",
+  "item.tutorialmod.prismatic_axe": "Prismatic Metal Axe",
+  "item.tutorialmod.prismatic_sword": "Prismatic Metal Sword",
+  "item.tutorialmod.prismatic_shovel": "Prismatic Metal Shovel",
+  "item.tutorialmod.prismatic_hoe": "Prismatic Metal Hoe",
+
   "item.tutorialmod.rose_gold": "Rose Gold Ingot",
+  "item.tutorialmod.rose_gold_smithing_template": "Smithing Template",
+  "item.tutorialmod.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.tutorialmod.rose_gold_axe": "Rose Gold Axe",
+  "item.tutorialmod.rose_gold_sword": "Rose Gold Sword",
+  "item.tutorialmod.rose_gold_shovel": "Rose Gold Shovel",
+  "item.tutorialmod.rose_gold_hoe": "Rose Gold Hoe",
 
   "item.tutorialmod.chocolate_bar": "Chocolate Bar",
 

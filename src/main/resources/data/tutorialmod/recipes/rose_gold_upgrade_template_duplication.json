@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tutorialmod:rose_gold"
+    },
+    "T": {
+      "item": "tutorialmod:rose_gold_smithing_template"
+    },
+    "X": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "pattern": [
+    " T ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "tutorialmod:rose_gold_smithing_template",
+    "count": 2
+  }
+}

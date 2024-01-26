@@ -3,8 +3,7 @@ package net.panderson.tutorialmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -13,8 +12,36 @@ import net.panderson.tutorialmod.TutorialMod;
 public class ModItems {
 
     public static final Item PRISMATIC_METAL = registerItem("prismatic_metal", new Item(new FabricItemSettings()));
+    public static final Item Prismatic_Smithing_Template = registerItem("prismatic_smithing_template", new Item(new FabricItemSettings()));
+
+    public static final Item Prismatic_Pickaxe = registerItem("prismatic_pickaxe",
+            new PickaxeItem(ModToolMaterial.Prismatic_metal, 1, -2.8f, new FabricItemSettings()));
+    public static final Item Prismatic_Axe = registerItem("prismatic_axe",
+            new AxeItem(ModToolMaterial.Prismatic_metal, 5, -3.0f, new FabricItemSettings()));
+    public static final Item Prismatic_Sword = registerItem("prismatic_sword",
+            new SwordItem(ModToolMaterial.Prismatic_metal, 3, -2.4f, new FabricItemSettings()));
+    public static final Item Prismatic_Shovel = registerItem("prismatic_shovel",
+            new ShovelItem(ModToolMaterial.Prismatic_metal, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item Prismatic_Hoe = registerItem("prismatic_hoe",
+            new HoeItem(ModToolMaterial.Prismatic_metal, -4, 0.0f, new FabricItemSettings()));
+
+
     public static final Item Rose_Gold = registerItem("rose_gold", new Item(new FabricItemSettings()));
-    public static final Item Chocolate_Bar = registerItem("chocolate_bar", new Item(new FabricItemSettings().food(ModFoodComponents.Chocolate_Bar)));
+    public static final Item Rose_Gold_Smithing_Template = registerItem("rose_gold_smithing_template", new Item(new FabricItemSettings()));
+
+    public static final Item Rose_Gold_Pickaxe = registerItem("rose_gold_pickaxe",
+            new PickaxeItem(ModToolMaterial.Rose_Gold, 1, -2.8f, new FabricItemSettings()));
+    public static final Item Rose_Gold_Axe = registerItem("rose_gold_axe",
+            new AxeItem(ModToolMaterial.Rose_Gold, 6, -3.1f, new FabricItemSettings()));
+    public static final Item Rose_Gold_Sword = registerItem("rose_gold_sword",
+            new SwordItem(ModToolMaterial.Rose_Gold, 3, -2.4f, new FabricItemSettings()));
+    public static final Item Rose_Gold_Shovel = registerItem("rose_gold_shovel",
+            new ShovelItem(ModToolMaterial.Rose_Gold, 1.5f, -3.0f, new FabricItemSettings()));
+    public static final Item Rose_Gold_Hoe = registerItem("rose_gold_hoe",
+            new HoeItem(ModToolMaterial.Rose_Gold, -2, -1.0f, new FabricItemSettings()));
+
+    public static final Item Chocolate_Bar = registerItem("chocolate_bar",
+            new Item(new FabricItemSettings().food(ModFoodComponents.Chocolate_Bar)));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 
