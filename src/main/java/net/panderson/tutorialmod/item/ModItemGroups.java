@@ -24,6 +24,11 @@ public class ModItemGroups {
                         entries.add(ModItems.Prismatic_Shovel);
                         entries.add(ModItems.Prismatic_Hoe);
 
+                        entries.add(ModItems.Prismatic_Helmet);
+                        entries.add(ModItems.Prismatic_Chestplate);
+                        entries.add(ModItems.Prismatic_Leggings);
+                        entries.add(ModItems.Prismatic_Boots);
+
                         entries.add(ModItems.Rose_Gold);
                         entries.add(ModItems.Rose_Gold_Smithing_Template);
                         entries.add(ModItems.Rose_Gold_Sword);
@@ -31,6 +36,11 @@ public class ModItemGroups {
                         entries.add(ModItems.Rose_Gold_Pickaxe);
                         entries.add(ModItems.Rose_Gold_Shovel);
                         entries.add(ModItems.Rose_Gold_Hoe);
+
+                        entries.add(ModItems.Rose_Gold_Helmet);
+                        entries.add(ModItems.Rose_Gold_Chestplate);
+                        entries.add(ModItems.Rose_Gold_Leggings);
+                        entries.add(ModItems.Rose_Gold_Boots);
 
                         entries.add(ModItems.Chocolate_Bar);
 

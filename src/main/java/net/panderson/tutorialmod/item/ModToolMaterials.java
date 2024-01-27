@@ -1,15 +1,14 @@
 package net.panderson.tutorialmod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModToolMaterial implements ToolMaterial {
+public enum ModToolMaterials implements ToolMaterial {
     Rose_Gold(2, 250, 6.0f, 2.0f, 22,
             () -> Ingredient.ofItems(ModItems.Rose_Gold)),
-    Prismatic_metal(4, 2031, 9.0f, 4.0f, 22,
+    Prismatic_Metal(4, 2031, 9.0f, 4.0f, 22,
             () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL));
 
     private final int mininglevel;
@@ -19,7 +18,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngrediant;
 
-    ModToolMaterial(int mininglevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngrediant) {
+    ModToolMaterials(int mininglevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngrediant) {
         this.mininglevel = mininglevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

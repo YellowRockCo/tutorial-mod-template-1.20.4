@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.panderson.tutorialmod.block.ModBlocks;
 import net.panderson.tutorialmod.item.ModItems;
 
@@ -32,10 +33,20 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Rose_Gold_Sword, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Rose_Gold_Hoe, Models.HANDHELD);
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Rose_Gold_Helmet));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Rose_Gold_Leggings));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Rose_Gold_Chestplate));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Rose_Gold_Boots));
+
         itemModelGenerator.register(ModItems.Prismatic_Axe, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Prismatic_Pickaxe, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Prismatic_Shovel, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Prismatic_Sword, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Prismatic_Hoe, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Helmet));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Chestplate));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Leggings));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Boots));
     }
 }

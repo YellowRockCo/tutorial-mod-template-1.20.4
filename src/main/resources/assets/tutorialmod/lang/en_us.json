@@ -7,6 +7,11 @@
   "item.tutorialmod.prismatic_shovel": "Prismatic Metal Shovel",
   "item.tutorialmod.prismatic_hoe": "Prismatic Metal Hoe",
 
+  "item.tutorialmod.prismatic_helmet": "Prismatic Metal Helmet",
+  "item.tutorialmod.prismatic_chestplate": "Prismatic Metal Chestplate",
+  "item.tutorialmod.prismatic_leggings": "Prismatic Metal Leggings",
+  "item.tutorialmod.prismatic_boots": "Prismatic Metal Boots",
+
   "item.tutorialmod.rose_gold": "Rose Gold Ingot",
   "item.tutorialmod.rose_gold_smithing_template": "Smithing Template",
   "item.tutorialmod.rose_gold_pickaxe": "Rose Gold Pickaxe",
@@ -14,6 +19,11 @@
   "item.tutorialmod.rose_gold_sword": "Rose Gold Sword",
   "item.tutorialmod.rose_gold_shovel": "Rose Gold Shovel",
   "item.tutorialmod.rose_gold_hoe": "Rose Gold Hoe",
+
+  "item.tutorialmod.rose_gold_helmet": "Rose Gold Crown",
+  "item.tutorialmod.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.tutorialmod.rose_gold_leggings": "Rose Gold Leggings",
+  "item.tutorialmod.rose_gold_boots": "Rose Gold Boots",
 
   "item.tutorialmod.chocolate_bar": "Chocolate Bar",
 

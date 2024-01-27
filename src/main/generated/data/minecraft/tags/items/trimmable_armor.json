@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:rose_gold_helmet",
+    "tutorialmod:rose_gold_chestplate",
+    "tutorialmod:rose_gold_leggings",
+    "tutorialmod:rose_gold_boots",
+    "tutorialmod:prismatic_helmet",
+    "tutorialmod:prismatic_chestplate",
+    "tutorialmod:prismatic_leggings",
+    "tutorialmod:prismatic_boots"
+  ]
+}
