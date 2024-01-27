@@ -6,7 +6,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    Rose_Gold(2, 250, 6.0f, 2.0f, 22,
+    Rose_Gold(2, 300, 6.0f, 2.0f, 22,
             () -> Ingredient.ofItems(ModItems.Rose_Gold)),
     Prismatic_Metal(4, 2031, 9.0f, 4.0f, 22,
             () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL));

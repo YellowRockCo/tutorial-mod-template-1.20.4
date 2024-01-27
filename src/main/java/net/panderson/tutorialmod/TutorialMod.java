@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.panderson.tutorialmod.block.ModBlocks;
 import net.panderson.tutorialmod.item.ModItemGroups;
 import net.panderson.tutorialmod.item.ModItems;
+import net.panderson.tutorialmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,5 +20,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

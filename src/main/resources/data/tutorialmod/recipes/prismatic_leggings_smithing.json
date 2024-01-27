@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tutorialmod:prismatic_metal"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": {
+    "item": "tutorialmod:prismatic_leggings"
+  },
+  "template": {
+    "item": "tutorialmod:prismatic_smithing_template"
+  }
+}

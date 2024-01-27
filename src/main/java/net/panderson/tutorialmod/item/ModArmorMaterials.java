@@ -10,9 +10,9 @@ import net.panderson.tutorialmod.TutorialMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    Rose_Gold("rose_gold", 25, new int[] { 2, 6, 5, 2 }, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0, 0,
+    Rose_Gold("rose_gold", 17, new int[] { 2, 6, 5, 2 }, 22, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0, 0,
             () -> Ingredient.ofItems(ModItems.Rose_Gold) ),
-    Prismatic("prismatic_metal", 30, new int[] { 3, 8, 6, 3 }, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3, 0,
+    Prismatic("prismatic_metal", 37, new int[] { 3, 8, 6, 3 }, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3, 0,
             () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL) );
 
     private final String name;
