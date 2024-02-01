@@ -27,11 +27,14 @@
 
   "item.tutorialmod.chocolate_bar": "Chocolate Bar",
 
+  "item.tutorialmod.quartz_sword": "Quartz Sword",
 
   "block.tutorialmod.prismatic_metal_block": "Block of Prismatic Metal",
   "block.tutorialmod.rose_gold_block": "Block of Rose Gold",
   "block.tutorialmod.active_prismatic_metal_block": "Block of Active Prismatic Metal",
   "block.tutorialmod.rough_metal_block": "Rough Metal",
 
-  "itemgroup.ingot": "Panderson's things"
+  "itemgroup.ingot": "Panderson's things",
+
+  "structure.tutorialmod.moss_temple": "moss temple?"
 }

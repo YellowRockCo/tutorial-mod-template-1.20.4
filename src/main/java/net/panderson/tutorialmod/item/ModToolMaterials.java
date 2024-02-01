@@ -1,5 +1,6 @@
 package net.panderson.tutorialmod.item;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -9,7 +10,9 @@ public enum ModToolMaterials implements ToolMaterial {
     Rose_Gold(2, 300, 6.0f, 2.0f, 22,
             () -> Ingredient.ofItems(ModItems.Rose_Gold)),
     Prismatic_Metal(4, 2031, 9.0f, 4.0f, 22,
-            () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL));
+            () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL)),
+    Quartz(2, 600, 6.0f, 2.0f, 18,
+            () -> Ingredient.ofItems(Items.QUARTZ));
 
     private final int mininglevel;
     private final int itemDurability;

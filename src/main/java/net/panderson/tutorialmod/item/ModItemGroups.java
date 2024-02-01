@@ -42,6 +42,8 @@ public class ModItemGroups {
                         entries.add(ModItems.Rose_Gold_Leggings);
                         entries.add(ModItems.Rose_Gold_Boots);
 
+                        entries.add(ModItems.Quartz_Sword);
+
                         entries.add(ModItems.Chocolate_Bar);
 
                         entries.add(ModBlocks.Prismatic_Metal_Block);

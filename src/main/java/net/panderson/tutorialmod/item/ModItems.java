@@ -63,6 +63,9 @@ public class ModItems {
     public static final Item Chocolate_Bar = registerItem("chocolate_bar",
             new Item(new FabricItemSettings().food(ModFoodComponents.Chocolate_Bar)));
 
+    public static final Item Quartz_Sword = registerItem("quartz_sword",
+            new SwordItem(ModToolMaterials.Quartz, 3, -2.4f, new FabricItemSettings()));
+
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 
         entries.add(PRISMATIC_METAL);

@@ -25,6 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Prismatic_Smithing_Template, Models.GENERATED);
         itemModelGenerator.register(ModItems.Rose_Gold, Models.GENERATED);
         itemModelGenerator.register(ModItems.Rose_Gold_Smithing_Template, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.Chocolate_Bar, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.Rose_Gold_Axe, Models.HANDHELD);
@@ -48,5 +49,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Chestplate));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Leggings));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.Prismatic_Boots));
+
+        itemModelGenerator.register(ModItems.Quartz_Sword, Models.HANDHELD);
     }
 }
