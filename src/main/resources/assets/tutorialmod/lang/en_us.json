@@ -36,5 +36,7 @@
 
   "itemgroup.ingot": "Panderson's things",
 
-  "structure.tutorialmod.moss_temple": "moss temple?"
+  "structure.tutorialmod.moss_temple": "moss temple?",
+
+  "enchantment.tutorialmod.lifesteal": "Vampirism"
 }

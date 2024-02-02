@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "moss_temple_structure:moss_temple",
+      "structure": "tutorial_mod:moss_temple",
       "weight": 1
     }
   ],

@@ -11,7 +11,7 @@ public enum ModToolMaterials implements ToolMaterial {
             () -> Ingredient.ofItems(ModItems.Rose_Gold)),
     Prismatic_Metal(4, 2031, 9.0f, 4.0f, 22,
             () -> Ingredient.ofItems(ModItems.PRISMATIC_METAL)),
-    Quartz(2, 600, 6.0f, 2.0f, 18,
+    Quartz(2, 900, 6.0f, 4.0f, 18,
             () -> Ingredient.ofItems(Items.QUARTZ));
 
     private final int mininglevel;
